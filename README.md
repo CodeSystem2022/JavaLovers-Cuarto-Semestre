@@ -18,7 +18,7 @@ Se puede visualizar los trabajos semanales del grupo Javalovers.
 
 | **Semana** | 💡 **Scrum Master** 💡    |
 |----------------------|----------------------|
-|  1  | ** |
+|  1  | *Suarez Javier* |
 |  2  | ** |
 |  3  | **|
 |  4  | ** |
