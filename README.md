@@ -20,7 +20,7 @@ Se puede visualizar los trabajos semanales del grupo Javalovers.
 |----------------------|----------------------|
 |  1  | *Suarez Javier* |
 |  2  | *Nahuel Alexa* |
-|  3  | **|
+|  3  | *Rosales Aldo*|
 |  4  | ** |
 |  5  | **|
 |  6  | **|
