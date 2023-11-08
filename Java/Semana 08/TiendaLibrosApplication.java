@@ -20,10 +20,10 @@ class TiendoLibrosApplication {
 	EventQueue.invokerLater(() ->{
 		//Obtenemos el objeto from a través del spring
 		LibroFrom libroFrom= contextoSpring.getBean(LibroFrom.class);
+	        libroFrom.
 	});
 
-	@Test
-	void contextLoads() {
+	
 	}
 
 }
