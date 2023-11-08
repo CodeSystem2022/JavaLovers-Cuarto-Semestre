@@ -26,7 +26,7 @@ Se puede visualizar los trabajos semanales del grupo Javalovers.
 |  6  | **|
 |  7  | ** |
 |  8  | *Nahuel Alexa* |
-|  9  | **|
+|  9  | *Rosales Aldo*|
 | 10  | ** |
 | 11  | **|
 | 12  | **|
