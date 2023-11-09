@@ -18,7 +18,7 @@ function adios(nombre, otroCallback){
         otroCallback();
     }, 1000);
 }
-//funcion recursiva
+
 function conversacion(nombre, veces, callback){
     if (veces > 0){
         hablar(function (){
@@ -29,7 +29,7 @@ function conversacion(nombre, veces, callback){
     }
 }
 
-//--proceso principal
+
 console.log('Iniciando el proceso...');
 hola('Ariel', function(nombre){
     conversacion(nombre, 4, function(){
@@ -37,18 +37,4 @@ hola('Ariel', function(nombre){
     });
 });
 
-//callback hell -> bienvenidos a todos
-//hola('Carlos', function(nombre) { 
-//   hablar(function() {
-//      hablar(function){
-//         hablar(function() {
-//           hablar(function() {
-//               adios(nombre,function (){
-//                       console.log('terminando el proceso...')
-           //        });
-         //       });
-       //     });    
-     //   });
-   // });
- //});
 
