@@ -1,3 +1,4 @@
+//No es aconsejable utilizar el CallbackHell
 function hola(nombre, miCallback){
     setTimeout(function () {
         console.log('Hola '+nombre);
@@ -18,7 +19,7 @@ function adios(nombre, otroCallback){
         otroCallback();
     }, 1000);
 }
-
+//funcion recursiva
 function conversacion(nombre, veces, callback){
     if (veces > 0){
         hablar(function (){
@@ -29,12 +30,29 @@ function conversacion(nombre, veces, callback){
     }
 }
 
-
+//--proceso principal
 console.log('Iniciando el proceso...');
 hola('Ariel', function(nombre){
     conversacion(nombre, 4, function(){
         console.log('Terminando el proceso...');
     });
 });
+
+
+//hola('Carlos', function(nombre) { 
+//   hablar(function() {
+//      hablar(function){
+//         hablar(function() {
+//           hablar(function() {
+//               adios(nombre,function (){
+//                       console.log('terminando el proceso...')
+           //        });
+         //       });
+       //     });    
+     //   });
+   // });
+ //});
+
+
 
 
