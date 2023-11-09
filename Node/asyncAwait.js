@@ -1,6 +1,4 @@
-
-//la palabra async no es necesaria  ya que son asincronas 
-async function hola (nombre){
+ async function hola (nombre){
     return new Promise (function (resolve,reject) {
         setTimeout( function () {
             console.log('hola'+nombre);
