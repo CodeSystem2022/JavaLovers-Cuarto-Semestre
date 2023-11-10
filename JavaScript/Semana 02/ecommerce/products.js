@@ -20,19 +20,4 @@ const productos = [
         quantity: 1,
         img:  "/e-commerce2022/client/media/leche.jpeg"
     },
-    {
-        id: 4,
-        productName: "Mayonesa",
-        price: 850,
-        quantity: 1,
-        img:"/e-commerce2022/client/media/mayonesa.jpeg"
-
-    },
-    {
-        id: 5,
-        productName: "Pollo",
-        price: 2400,
-        quantity: 1,
-        img:"/e-commerce2022/client/media/pollo.jpeg"
-    },
-];
+ 
