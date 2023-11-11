@@ -8,6 +8,10 @@ import java.awt.*;
 
 public class LibroFrom extends JFrame{
     LibroServicio libroServicio;
+    private JPanel panel;
+    private JTable tablaLibros;
+    private DefaultTableModel tablaModeloLibros;
+
 
     @Autowired
     public LibroFrom(LibroServicio libroServicio){
