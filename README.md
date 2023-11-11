@@ -24,9 +24,9 @@ Se puede visualizar los trabajos semanales del grupo Javalovers.
 |  4  | *Carrizo Andres*|
 |  5  | **|
 |  6  | **|
-|  7  |  *Suarez Javier*|
+|  7  |  *Carrizo Andres*|
 |  8  | *Nahuel Alexa* |
 |  9  | *Rosales Aldo*|
-| 10  | *Carrizo Andres*|
+| 10  | *Suarez Javier*|
 | 11  | **|
 | 12  | **|
