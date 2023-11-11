@@ -1,5 +1,5 @@
 # JavaLovers-Cuarto-Semestre
-# JavaLovers-Cuarto-Semestre
+
 Realizamos las entregas de los ejercicios realizados en las clases.
 
 Se puede visualizar los trabajos semanales del grupo Javalovers.
