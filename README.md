@@ -5,7 +5,7 @@ Se puede visualizar los trabajos realizados por semana en las diferentes ramas s
                             ![image](https://github.com/CodeSystem2022/JavaLovers-Cuarto-Semestre/assets/112834554/2c6ecdb9-7f0e-4762-90c8-5eb912967023)
 
 
-       ![image](https://github.com/CodeSystem2022/Tercer-Semestre-Grupo-Javalovers/assets/112024900/ffbf28f1-3ed3-422a-8d8a-017b07ae2d93)
+  ![image](https://github.com/CodeSystem2022/Tercer-Semestre-Grupo-Javalovers/assets/112024900/ffbf28f1-3ed3-422a-8d8a-017b07ae2d93)
 
  
 | 👩‍💻**Integrantes**👩‍💻     |
