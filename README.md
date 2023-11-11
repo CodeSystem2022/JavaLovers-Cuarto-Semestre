@@ -1,7 +1,7 @@
 # JavaLovers-Cuarto-Semestre
 Realizamos las entregas de los trabajos realizados en las clases.
 
-Se puede visualizar los trabajos realizados por semana en las diferentes ramas según al lenguaje al cual correspondan los códigos.
+Se puede visualizar los trabajos realizados por semana en las diferentes ramas según al lenguaje al cual correspondan los códigos. 
 ![image](https://github.com/CodeSystem2022/JavaLovers-Cuarto-Semestre/assets/112834554/2c6ecdb9-7f0e-4762-90c8-5eb912967023)
 
 
