@@ -46,7 +46,7 @@ public class LibroFrom extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         setSize(900, 700);
-        //Para obtener las dimensiones de la ventana
+    //Para obtener las dimensiones de la ventana
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Dimension tamanioPantalla = toolkit.getScreenSize();
         int x = (tamanioPantalla.width - getWidth()/2);
@@ -54,7 +54,7 @@ public class LibroFrom extends JFrame {
         setLocation(x, y);
     }
     private void agregarLibro(){
-        //Leer los valores del formulario
+        //Leer los valores del formulario.
         if(libroTexto.getText().equals("")){
             mostrarMensaje("Ingrese el nombre del libro");
             libroTexto.requestFocusInWindow();
@@ -64,7 +64,7 @@ public class LibroFrom extends JFrame {
         var autor = autorTexto.getText();
         var precio = Double.parseDouble(precioTexto.getText());
         var existencias = Integer.parseInt(existenciasTexto.getText());
-        //Creamos el objeto libro
+    //Creamos el objeto libro.
         int idLibro = 0;
         var libro = new Libro(idLibro, nombreLibro, autor, precio, existencias);
         libro.setNombreLibro(nombreLibro);
@@ -77,7 +77,7 @@ public class LibroFrom extends JFrame {
         listarLibros();
     }
     private void cargarLibroSeleccionado(){
-    //Los indices de las columnas inician en 0
+    //Los indices de las columnas inician en 0.
        var renglon = tablaLibros.getSelectedRows();
         if(renglon != -1){
             String idLibro = tablaLibros.getModel().getValueAt(renglon, 0).toString();
@@ -101,13 +101,13 @@ public class LibroFrom extends JFrame {
             mostrarMensaje("Debe seleccionar un registro en la tabla");
         }
         else {
-        //Verificamos que nombre del libro no sea nulo
+        //Verificamos que nombre del libro no sea nulo.
             if(libroTexto.getText().equals("")){
                 mostrarMensaje("Digite el nombre del libro...");
                 libroTexto.requestFocusInWindow();
                 return;
             }
-        //Llenamos el objeto libre a actualizar
+        //Llenamos el objeto libre a actualizar.
             int idLibro = Integer.parseInt(idTexto.getText());
             var nombreLibro =libroTexto.getText();
             var autor =autorTexto.getText();
