@@ -96,3 +96,27 @@ public class LibroFrom extends JFrame {
             libroTexto.setText(existencias);
         }
     }
+     private void modificarLibro(){
+        if(this.idTexto.equals("")) {
+            mostrarMensaje("Debe seleccionar un registro en la tabla");
+        }
+        else {
+            //Verificamos que nombre del libro no sea nulo
+            if(libroTexto.getText().equals("")){
+                mostrarMensaje("Digite el nombre del libro...");
+                libroTexto.requestFocusInWindow();
+                return;
+            }
+            // Llenamos el objeto libre a actualizar
+            int idLibro = Integer.parseInt(idTexto.getText());
+            var nombreLibro =libroTexto.getText();
+            var autor =autorTexto.getText();
+            var precio =Double.parseDouble(precioTexto.getText());
+            var existencias =Integer.parseInt(existenciasTexto.getText());
+            var libro = new Libro(idLibro, nombreLibro, autor, precio, existencias);
+            libroServicio.guardarLibro(libro);
+            mostrarMensaje("Se modifico el libro...");
+            limpiarFormulario();
+            listarLibros();
+        }
+    }
