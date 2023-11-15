@@ -77,7 +77,7 @@ public class LibroFrom extends JFrame {
         listarLibros();
     }
     private void cargarLibroSeleccionado(){
-        //Los indices de las columnas inician en 0
+    //Los indices de las columnas inician en 0
        var renglon = tablaLibros.getSelectedRows();
         if(renglon != -1){
             String idLibro = tablaLibros.getModel().getValueAt(renglon, 0).toString();
@@ -101,13 +101,13 @@ public class LibroFrom extends JFrame {
             mostrarMensaje("Debe seleccionar un registro en la tabla");
         }
         else {
-            //Verificamos que nombre del libro no sea nulo
+        //Verificamos que nombre del libro no sea nulo
             if(libroTexto.getText().equals("")){
                 mostrarMensaje("Digite el nombre del libro...");
                 libroTexto.requestFocusInWindow();
                 return;
             }
-            // Llenamos el objeto libre a actualizar
+        //Llenamos el objeto libre a actualizar
             int idLibro = Integer.parseInt(idTexto.getText());
             var nombreLibro =libroTexto.getText();
             var autor =autorTexto.getText();
