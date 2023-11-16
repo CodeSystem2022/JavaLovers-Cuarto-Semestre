@@ -26,11 +26,11 @@ Se puede visualizar los trabajos realizados por semana en las diferentes ramas s
 |  2  | *Nahuel Alexa* |
 |  3  | *Rosales Aldo*|
 |  4  | *Carrizo Andres*|
-|  5  | **|
+|  5  | *Perez Jonathan*|
 |  6  | **|
 |  7  |  *Carrizo Andres*|
 |  8  | *Nahuel Alexa* |
 |  9  | *Rosales Aldo*|
 | 10  | *Suarez Javier*|
-| 11  | **|
+| 11  | *Perez Jonathan*|
 | 12  | **|
